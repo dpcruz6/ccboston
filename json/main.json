@@ -1,0 +1,25 @@
+{
+	"menus" : [{
+		"name" : "What We Offer",
+		"id"   : "services",
+		"class" : "page-scroll"
+		},
+		{
+		"name" : "Portfolio",
+		"id"   : "portfolio",
+		"class" : "page-scroll"
+		},
+		{
+		"name" : "About",
+		"id"   : "about"
+		},
+		{
+		"name" : "Team",
+		"id"   : "team"
+		},
+		{
+		"name" : "Contact",
+		"id"   : "contact"
+		}]
+	
+}
