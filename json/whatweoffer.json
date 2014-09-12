@@ -1,0 +1,68 @@
+{
+	"title" : "What We Offer",
+	"description" : "We are here in Boston to serve and help international students, scholars, and their spouses to get a better understanding of America.",
+	"wwos" : [
+		{
+			"thumbnail" : "img/photos/CCclass09spring1.jpg"
+		},
+		{
+			"title" : "Cultural Connection of Boston",
+			"time" : "Thursday 4:30 - 7:00 PM",
+			"impt" : "For college, grad students, and scholars",
+			"events" : [
+				"We welcome everyone, from any country, culture, or religion",
+				"Learn and discuss: The basic understanding of the Holy Scripture (the Bible), what Christians’ believe, who is Jesus? The meaning and purpose of life, etc.",
+				"Learn and experience: American culture, history, holidays, everyday phrases and idioms, etc.",
+				"Practice your English and oratory skills for your class/dissertation presentation on us",
+				"Share your own culture and experience",
+				"Make friends with Americans and other internationals",
+				"Enjoy movies and refreshments"
+			]
+		
+		},
+		{
+			"title" : "Friendship & Partnership Program",
+			"events" : [
+				"We will match you with an American friend or family who wants to have an international friend like you",
+				"Open for all students, scholars, and their spouses"
+			]
+		
+		},
+		{
+			"title" : "Discipleship Bible Study",
+			"events" : [
+				"For Christians who want to grow deeper in their faith",
+				"One on one or small group Bible study during the weekday"
+			]
+		
+		},
+		{
+			"thumbnail" : "img/photos/Mayflower.jpg"
+		},
+		{
+			"thumbnail" : "img/photos/House_dinner.jpg"
+		},
+		{
+			"title" : "Field Trips & Activities",
+			"description" : "We will visit New England historical sites and take fun trips to many beautiful New England places.",
+			"events" : [
+				"Sports: Kayaking/canoeing, skiing, hiking, etc.",
+				"These are monthly day trips on a weekend",
+				"Open for all students and scholars",
+				"Space availability is usually limited due to a few available cars",
+				"Only a small contribution to help us with gas, tolls, and parking"
+			]
+		
+		},	
+		{
+			"title" : "Celebrating American Holidays & Events",
+			"description" : "Learn about American holidays (Thanksgiving, Christmas, Easter, etc.) and celebrate them with us. Don't be alone on the holidays in America. Meet other friends during these festivities.",
+			"events" : [
+				"Celebrating birthdays, graduation, and special events",
+				"Open for all students, scholars, and their spouses & children"
+			]
+		
+		}
+	
+	]
+}

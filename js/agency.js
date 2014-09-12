@@ -11,6 +11,10 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
+        if($anchor.attr('id') == 'top')
+        	$('.header-label-ccboston').css('color', '#000');
+        else
+        	$('.header-label-ccboston').css('color', '#fff');
         event.preventDefault();
     });
 });
@@ -19,6 +23,11 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
+
+$('.navbar-fixed-top').on('activate.bs.scrollspy', function (evt) {
+	// event here
+})
+
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {

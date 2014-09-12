@@ -1,0 +1,23 @@
+{
+	"title" : "About",
+	"description" : "We are an International Student Ministry a non-profit Christian organization." ,
+	"about" : "We are an International Student Ministry a non-profit Christian organization.<br/><br/>We are here in Boston to serve and help international students, scholars, and their spouses to get a better understanding of America and the Christian faith. <br/><br/>We welcome everyone, from any country, culture or religion.<br/><br/>Cultural Connections of Boston was established in 2001.<br/><br/>We follow NAFSA/Association of International Educators Code of Ethics (section 10)",
+	"paperRocket" : "img/logos/paperocket.jpg",
+	"nananChris" : {
+		"title" : "Nanan & Chris",
+		"photos" :[
+			"img/photos/ChrisNan-Newport.jpg",
+			"img/photos/ChrisNan-Beach.jpg"
+		]
+	},
+	"contacts" : [
+		{
+			"name" : "Cultural Connections of Boston",
+			"contact" : "Nanan & Chris Coughlin",
+			"address" : "874 Beacon St., Boston, MA 02215",
+			"number" : "(781)-395-9017",
+			"email" : "nananjoehana@yahoo.com",
+			"facebook" : "facebook.com/culturalconnectionboston"
+		}
+	]
+}

@@ -213,13 +213,14 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #60762F;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #60762F;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -310,9 +311,14 @@ header .intro-text .intro-heading {
 header .skew{
 		transform: none
 		-webkit-transform: none
+		-moz-transform: none
 		border-radius: 10px;
+		border: 2px dashed;
 		box-shadow: 5px 5px 10px #888888;
-		background-color: #9AC040;
+		background: -webkit-linear-gradient(#C2DD81, #9AC040); 
+    	background: -o-linear-gradient(#C2DD81, #9AC040); 
+		background: -moz-linear-gradient(#C2DD81, #9AC040); 	
+    	background: linear-gradient(#C2DD81, #9AC040);
 		width: 50%;
 		margin: 0 auto;
 		padding-top: 20px;
@@ -339,12 +345,12 @@ header .skew{
 	}
 }
 
-@-moz-keyframse{
+@-moz-keyframes welcomeAnimate{
 	from{
-		-moz-transform: skewX(160deg) scale(0);
+		-moz-transform: skewX(160deg) rotate(0) scale(0);
 	}
 	to{
-		-moz-transform: skewX(160deg) scale(1);
+		-moz-transform: skewX(160deg) rotate(360deg) scale(1);
 	}
 }
 
@@ -392,6 +398,7 @@ header .skew{
 		margin-top: -60px;
 		animation: welComeAnimate 5s ease;
 		-webkit-animation: welcomeAnimate 5s ease;
+		-moz-animation: welcomeAnimate 5s ease;
 	}
 }
 
