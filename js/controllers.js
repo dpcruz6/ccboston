@@ -1,6 +1,7 @@
 var controllers = angular.module('controllers', []);
 
 
+// Main Controller
 controllers.controller('MainCtrl', ['$scope', '$http',
 	function($scope, $http){
 		$http.get('json/main.json').success(function(data){
@@ -10,6 +11,7 @@ controllers.controller('MainCtrl', ['$scope', '$http',
 	}
 ]);
 
+// What We Offer Controller
 controllers.controller('WWOCtrl', ['$scope', '$http',
 	function($scope, $http){
 		$http.get('json/whatweoffer.json').success(function(data){
@@ -18,6 +20,7 @@ controllers.controller('WWOCtrl', ['$scope', '$http',
 	}
 ]);
 
+// Photos Controller
 controllers.controller('PhotosCtrl', ['$scope', '$http',
 	function($scope, $http){
 		$http.get('json/photos.json').success(function(data){
@@ -46,6 +49,7 @@ controllers.controller('PhotosCtrl', ['$scope', '$http',
 	}
 ]);
 
+// About Controller
 controllers.controller('AboutCtrl', ['$scope', '$http', '$sce',
 	function($scope, $http, $sce){
 		$http.get('json/about.json').success(function(data){
@@ -56,6 +60,7 @@ controllers.controller('AboutCtrl', ['$scope', '$http', '$sce',
 	}
 ]);
 
+// Location Time Controller
 controllers.controller('LocationTimeCtrl', ['$scope', '$http', '$sce',
 	function($scope, $http, $sce){
 		$http.get('json/locationTime.json').success(function(data){
